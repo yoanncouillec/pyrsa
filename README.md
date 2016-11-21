@@ -5,10 +5,10 @@ factorization of big prime numbers. It is a nice and interesting
 application of modular arithmetic. It involves the Euler's totient
 function and generates a pair of key, a public one and a private one.
 
-We can see two main applications:
+There are two main applications:
 
-* **Signature:** Sign your messages with the private one and then
-everybody can verify using the public key.
+* **Signature:** Sign the message with the private key and then
+everybody can verify the signature with the public key.
 * **Encryption:** Encrypt with the public key and decrypt with the private key.
 
 ## PyRsa is a Python library that implements the entire RSA cryptosystem
@@ -28,7 +28,7 @@ import filecmp
 assert(filecmp.cmp("message.txt", "message.back"))
 ```
 
-This example will start a cluster with default configuration (1 config replica set, 2 data replica sets, with a replica factor of 3).
+This example encrypts and decrypt a message.
 
 ## Installation
 

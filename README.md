@@ -28,7 +28,7 @@ import filecmp
 assert(filecmp.cmp("message.txt", "message.back"))
 ```
 
-This example encrypts and decrypt a message.
+This example encrypts and decrypts a message.
 
 ## Installation
 

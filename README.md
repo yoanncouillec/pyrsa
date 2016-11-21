@@ -11,7 +11,7 @@ We can see two main applications:
 everybody can verify using the public key.
 * **Encryption:** Encrypt with the public key and decrypt with the private key.
 
-## PyRsa is a Python library to show you the entire implementation of the RSA cryptosystem.
+## PyRsa is a Python library that implements the entire RSA cryptosystem.
 
 * **Easy:** You can generate public/private keys, encrypt and decrypt in a few commands.
 * **Secure:** The RSA algorithm is fully implemented avoiding security holes.
